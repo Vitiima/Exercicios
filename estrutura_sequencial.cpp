@@ -1,18 +1,27 @@
+#ifndef ESTRUTURA_SEQUENCIAL_H
+#define ESTRUTURA_SEQUENCIAL_H
 
-#include "estrutura_sequencial.h"
+namespace estrutura_sequencial {
 
-namespace estrutura_sequencial  {
-} // estrutura_sequencial
+    struct N {
+        float nota;
+        float peso;
+    };
 
-estrutura_sequencial::estrutura_sequencial() {
+    class estrutura_sequencial {
+    public:
+        estrutura_sequencial() {
+
+        }
+        ~estrutura_sequencial() {
+
+        }
+
+        float exer1(float n1, float n2, float n3, float n4);
+        float exer2(float n1, float n2, float n3);
+        float exer3(const N& n1, const N& n2, const N& n3);
+    };
 
 }
 
-float exer1(float n1, float n2, float n3, float n4) {
-    return n1+n2+n3+n4;
-}
-
-float exer2(float n1, float n2, float n3) {
-    float sum = n1+n2+n3;
-    return sum/3;
-}
+#endif
