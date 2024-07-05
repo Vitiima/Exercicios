@@ -7,6 +7,12 @@ namespace estrutura_sequencial {
         float nota;
         float peso;
     };
+    struct func {
+        float sal;
+        float im;
+        float imp = im/100;
+        float grat;
+    };
 
     class estrutura_sequencial {
     public:
@@ -18,6 +24,8 @@ namespace estrutura_sequencial {
         float static exer3(const N& n1, const N& n2, const N& n3);
         float static exer4(float sal);
         float static exer5(float sal, float perc);
+        float static exer6(float sal, float grat, float imp);
+        float static exer7(func& f);
     };
 
 }

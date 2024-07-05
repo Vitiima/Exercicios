@@ -28,6 +28,24 @@ namespace estrutura_sequencial {
         float aumen = sal*perc - sal;
         return aumen;
     }
+    float estrutura_sequencial::exer6(float sal, float grat, float imp) {
+        sal = 1000;
+        float salfree = sal+sal*(grat/100);
+        float salliquido = sal-sal*(imp/100);
+        float dif = (salfree-sal)+(salliquido-sal);
+        sal = sal+dif;
+        return sal;
+    }
+    float estrutura_sequencial::exer7(func& f){
+        f.sal = f.sal-f.sal*f.imp;
+        f.sal = f.sal+f.grat;
+        return f.sal;
+    }
+
+
+    }
+
+
 
 
 
