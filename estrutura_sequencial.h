@@ -16,7 +16,7 @@ namespace estrutura_sequencial {
         float static exer1(float n1, float n2, float n3, float n4);
         float static exer2(float n1, float n2, float n3);
         float static exer3(const N& n1, const N& n2, const N& n3);
-        float static exer4();
+        float static exer4(float sal);
     };
 
 }

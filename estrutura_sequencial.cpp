@@ -16,7 +16,9 @@ namespace estrutura_sequencial {
         float const totalWeights = n1.peso + n2.peso + n3.peso;
         return totalNotes / totalWeights;
     }
-    float estrutura_sequencial::exer4() {
+    float estrutura_sequencial::exer4(float sal) {
+        sal = sal*1.25;
+        return sal;
 
     }
 
