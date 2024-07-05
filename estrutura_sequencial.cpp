@@ -1,5 +1,6 @@
 #include "estrutura_sequencial.h"
 
+#include <cmath>
 #include <iostream>
 
 namespace estrutura_sequencial {
@@ -58,13 +59,26 @@ namespace estrutura_sequencial {
         float area =  (base*alt)/2;
         return area;
     }
-    float estrutura_sequencial::exer110(float r) {
+    float estrutura_sequencial::exer10(float r) {
         float pi = 3.14159265359;
         std::cout << "digite o valor do raio";
         std::cin>>r;
         float area = r*pi;
         return area;
     }
+    void estrutura_sequencial::exer11(float num) {
+        std::cout << "digite o numero desejado";
+        std::cin>> num;
+        if (num <= 0) {
+            std::cout << "esse numero não é valido, use um numero maior que zero";
+            return;
+        }
+        std::cout << pow(num,2);
+        std::cout << pow(num,3);
+        std::cout << sqrt (num);
+        std::cout << cbrt(num);
+    }
+
 
 
 
