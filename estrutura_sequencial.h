@@ -10,17 +10,13 @@ namespace estrutura_sequencial {
 
     class estrutura_sequencial {
     public:
-        estrutura_sequencial() {
+        estrutura_sequencial() = default;
+        ~estrutura_sequencial() = default;
 
-        }
-        ~estrutura_sequencial() {
-
-        }
-
-        float exer1(float n1, float n2, float n3, float n4);
-        float exer2(float n1, float n2, float n3);
-        float exer3(const N& n1, const N& n2, const N& n3);
-        float exer4();
+        float static exer1(float n1, float n2, float n3, float n4);
+        float static exer2(float n1, float n2, float n3);
+        float static exer3(const N& n1, const N& n2, const N& n3);
+        float static exer4();
     };
 
 }
