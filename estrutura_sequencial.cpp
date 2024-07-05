@@ -1,5 +1,7 @@
 #include "estrutura_sequencial.h"
 
+#include <iostream>
+
 namespace estrutura_sequencial {
 
     float estrutura_sequencial::exer1(float const n1, float const n2, float const n3, float const n4) {
@@ -21,6 +23,12 @@ namespace estrutura_sequencial {
         return sal;
 
     }
+    float estrutura_sequencial::exer5(float const sal, float const perc) {
+        std::cout<<sal*perc<<std::endl;
+        float aumen = sal*perc - sal;
+        return aumen;
+    }
+
 
 
 }
