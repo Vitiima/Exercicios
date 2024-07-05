@@ -30,6 +30,7 @@ namespace estrutura_sequencial {
         float static exer9(float base,float alt);
         float static exer10(float r);
         void static exer11(float num);
+        void static exer12(float num1, float num2);
     };
 
 }

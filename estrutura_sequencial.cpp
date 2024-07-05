@@ -78,6 +78,23 @@ namespace estrutura_sequencial {
         std::cout << sqrt (num);
         std::cout << cbrt(num);
     }
+    void estrutura_sequencial::exer12(float num1, float num2) {
+        std::cout << "insira o primeiro numero";
+        std::cin>>num1;
+        if (num1 == 0) {
+            "numero não aceito, insira um numero real diferente de zero";
+            return;
+        }
+        std::cout << "insira o segundo numero";
+        std::cin>>num2;
+        if (num2 == 0) {
+            "numero não aceito, insira um numero real diferente de zero";
+            return;
+        }
+        pow(num1,num2);
+        return;
+    }
+
 
 
 
