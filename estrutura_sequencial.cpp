@@ -47,7 +47,7 @@ namespace estrutura_sequencial {
         std::cin>>dep;
         std::cout << "valor da taxa";
         std::cin>>tax;
-        float rend = dep*(tax/100)
+        float rend = dep*(tax/100);
         float total = dep+rend;
         std::cout << rend,total;
     }
@@ -96,5 +96,17 @@ namespace estrutura_sequencial {
         std::cout << pow(num2,num1);
         return;
    }
+    void estrutura_sequencial::exer13() {
+        float pes;
+        std::cout << "diga a quantidade a medida à ser tranformada em pes";
+        std::cin>>pes;
+        float jarda = 3*pes;
+        float milha = 1760*jarda;
+        std::cout << milha,"quatidade em milha";
+        std::cout << jarda,"quantidade em jarda";
+        return;
+    }
+
+
     }
 
