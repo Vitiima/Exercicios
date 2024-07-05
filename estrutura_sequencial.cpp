@@ -77,6 +77,7 @@ namespace estrutura_sequencial {
         std::cout << pow(num,3);
         std::cout << sqrt (num);
         std::cout << cbrt(num);
+        return;
     }
     void estrutura_sequencial::exer12(float num1, float num2) {
         std::cout << "insira o primeiro numero";
@@ -93,7 +94,7 @@ namespace estrutura_sequencial {
         }
         pow(num1,num2);
         return;
-    }
+   }
 
 
 
