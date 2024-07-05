@@ -92,19 +92,9 @@ namespace estrutura_sequencial {
             std::cout <<"numero não aceito, insira um numero real diferente de zero" ;
             return;
         }
-        pow(num1,num2);
+        std::cout <<pow(num1,num2) ;
+        std::cout << pow(num2,num1);
         return;
    }
-
-
-
-
-
-
     }
 
-
-
-
-
-}
