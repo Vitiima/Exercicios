@@ -41,6 +41,15 @@ namespace estrutura_sequencial {
         f.sal = f.sal+f.grat;
         return f.sal;
     }
+    void estrutura_sequencial::exer8(float dep, float tax) {
+        std::cout <<"valor do deposito";
+        std::cin>>dep;
+        std::cout << "valor da taxa";
+        std::cin>>tax;
+        float rend = dep*(tax/100)
+        float total = dep+rend;
+        std::cout << rend,total;
+    }
 
 
     }
