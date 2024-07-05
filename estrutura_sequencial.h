@@ -27,6 +27,8 @@ namespace estrutura_sequencial {
         float static exer6(float sal, float grat, float imp);
         float static exer7(func& f);
         void static exer8(float dep, float tax);
+        float static exer9(float base,float alt);
+        float static exer110(float r);
     };
 
 }

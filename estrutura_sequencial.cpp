@@ -50,6 +50,23 @@ namespace estrutura_sequencial {
         float total = dep+rend;
         std::cout << rend,total;
     }
+    float estrutura_sequencial::exer9(float base, float alt) {
+        std::cout << "diga o tamanho da base";
+        std::cin>>base;
+        std::cout << "diga a altura";
+        std::cin>>alt;
+        float area =  (base*alt)/2;
+        return area;
+    }
+    float estrutura_sequencial::exer110(float r) {
+        float pi = 3.14159265359;
+        std::cout << "digite o valor do raio";
+        std::cin>>r;
+        float area = r*pi;
+        return area;
+    }
+
+
 
 
     }
