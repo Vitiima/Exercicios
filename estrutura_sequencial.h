@@ -1,6 +1,8 @@
 #ifndef ESTRUTURA_SEQUENCIAL_H
 #define ESTRUTURA_SEQUENCIAL_H
-
+#include <string>
+#include <iostream>
+using namespace std;
 namespace estrutura_sequencial {
 
     struct N {
@@ -12,6 +14,10 @@ namespace estrutura_sequencial {
         float im;
         float imp = im/100;
         float grat;
+    };
+    struct p {
+        int nasc;
+        string name;
     };
 
     class estrutura_sequencial {
@@ -32,6 +38,7 @@ namespace estrutura_sequencial {
         void static exer11(float num);
         void static exer12(float num1, float num2);
         void static exer13();
+        void static exer14(tm d1, p n1);
 
     };
 

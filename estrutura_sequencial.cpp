@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <iostream>
+#include <ctime>
 
 namespace estrutura_sequencial {
 
@@ -49,7 +50,7 @@ namespace estrutura_sequencial {
         std::cin>>tax;
         float rend = dep*(tax/100);
         float total = dep+rend;
-        std::cout << rend,total;
+        std::cout << rend,total<<endl;
     }
     float estrutura_sequencial::exer9(float base, float alt) {
         std::cout << "diga o tamanho da base";
@@ -102,10 +103,20 @@ namespace estrutura_sequencial {
         std::cin>>pes;
         float jarda = 3*pes;
         float milha = 1760*jarda;
-        std::cout << milha,"quatidade em milha";
-        std::cout << jarda,"quantidade em jarda";
+        std::cout << milha,"quatidade em milha"<< endl;
+        std::cout << jarda,"quantidade em jarda"<< endl;
         return;
     }
+    void estrutura_sequencial::exer14(tm d1, p n1){
+        int ano = d1.tm_year+1900;
+        std::cout << "insira seu nome";
+        std::cin >> n1.name;
+        std::cout << "insira o seu ano de nascimento";
+        std::cin >> n1.nasc;
+        cout << "Sua idade é " << (ano - n1.nasc) << endl;
+        cout << "Você terá " << (2050 - n1.nasc) << " anos em 2050." << endl;
+    }
+
 
 
     }
