@@ -116,6 +116,30 @@ namespace estrutura_sequencial {
         cout << "Sua idade é " << (ano - n1.nasc) << endl;
         cout << "Você terá " << (2050 - n1.nasc) << " anos em 2050." << endl;
     }
+    void estrutura_sequencial::exer15() {
+        float pFabric;
+        float plDistr;
+        float imp;
+        float lDistr;
+        float cimp;
+        float pf;
+
+        std::cout << "insira o valor de fabrica do veiculo";
+        std::cin >> pFabric;
+        std::cout << "agora o percentual do distribuidor";
+        std::cin >> plDistr;
+        plDistr = plDistr/100;
+        std::cout << "por ultimo o percentual de imposto";
+        std::cin >> imp;
+        imp = imp/100;
+        lDistr = pFabric*plDistr;
+        cimp = pFabric*imp;
+        pf = pFabric+lDistr+cimp;
+
+        std::cout << "valor do imposto", cimp <<endl;
+        std::cout << "valor do lucro do distribuidor",lDistr << endl;
+        std::cout << "valor totoal do veiculo",pf << endl;
+    }
 
 
 

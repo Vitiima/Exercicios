@@ -39,7 +39,7 @@ namespace estrutura_sequencial {
         void static exer12(float num1, float num2);
         void static exer13();
         void static exer14(tm d1, p n1);
-
+        void static exer15();
     };
 
 }
